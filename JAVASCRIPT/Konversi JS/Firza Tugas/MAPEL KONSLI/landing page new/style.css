@@ -1,0 +1,185 @@
+
+body {
+    font-family: arial;
+}
+
+.skibidi {
+    width: 40px;
+    height: 40px;
+    justify-items: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.bg {
+    background: url(bgireng.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.gambar1 {
+    float: right;
+    width: 30%;
+    height: 75%;
+    margin-top: 30px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20%;
+}
+
+.arttext{
+    text-align: center;
+}
+
+.allpic {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-sizing: border-box;
+}
+
+.gambar01{
+    justify-content: center;
+    height: 22%;
+    width: 22%;
+    border-radius: 10%;
+    box-shadow: 0px 10px 20px black;
+}
+
+.gambar02{
+    height: 22%;
+    width: 22%;
+    border-radius: 10%;
+    box-shadow: 0px 10px 20px black;
+}
+
+.gambar03{
+    height: 22%;
+    width: 22%;
+    border-radius: 10%;
+    box-shadow: 0px 10px 20px black;
+}
+
+.gambar04{
+    height: 22%;
+    width: 22%;
+    border-radius: 10%;
+    box-shadow: 0px 10px 20px black;
+}
+
+.profile {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+
+.text {
+    text-align: center;
+    color: #fff;
+    flex-basis: 350px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.list {
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.sigma {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.sigma1 {
+    margin: 0;
+    background-color: orange;
+    height: 50px;
+    color: orange;
+}
+
+
+@media (max-width: 440px) {
+
+    .bg {
+        height: 140vh;
+    }
+
+    .gambar1 {
+        margin: 30px;
+        padding: 0px;
+        align-items: center;
+        width: 89%;
+        height: 40%;
+        border-radius: 20%;
+    }
+
+    .profile {
+        margin: 0;
+        padding: 0;
+    }
+
+    .gambar01 {
+        width: 400px;
+        margin: 100px;
+        margin-top: 10px;
+    }
+
+    .gambar02 {
+        width: 400px;
+        margin: 100px;
+        margin-top: 10px;
+    }
+
+    .gambar03 {
+        width: 400px;
+        margin: 100px;
+        margin-top: 10px;
+    }
+
+    .gambar04 {
+        width: 400px;
+        margin: 100px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .gambar1 {
+        margin-right: 30px;
+        display: flex;
+        align-items: center;
+        width: 90%;
+        height: 50%;
+        border-radius: 20%;
+    }
+}
+

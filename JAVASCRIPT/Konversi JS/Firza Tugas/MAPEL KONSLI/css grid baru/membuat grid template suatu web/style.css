@@ -1,0 +1,88 @@
+.parent {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header header"
+    "minu minu minu minu"
+    "sidebar main main sidebar2"
+    "main1 main1 main2 main2"
+    "footer footer footer footer";
+    gap: 10px;
+}
+@media (max-width: 1025px){
+    .parent {
+        grid-template-columns: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "minu header header header"
+        "main main main sidebar2"
+        "main main main sidebar"
+        "main1 main1 main2 main2"
+        "footer footer footer footer";
+    }
+}
+
+
+@media (max-width: 440px) {
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 120px 100px 250px 200px 200px 250px 250px 100px;
+        grid-template-areas: 
+        "header"
+        "minu"
+        "main"
+        "sidebar"
+        "sidebar2"
+        "main1"
+        "main2"
+        "footer";
+    }
+}
+
+.child {
+    padding: 50px;
+}
+
+.child.first {
+    background-color: aquamarine;
+    grid-area: header;
+}
+
+.child.second {
+    background-color: rgb(255, 127, 214);
+    grid-area: minu;
+}
+
+.child.third {
+    background-color: rgb(95, 52, 250);
+    grid-area: sidebar;
+}
+
+.child.four {
+    background-color: blueviolet;
+    grid-area: main;
+}
+
+.child.five {
+    background-color: chartreuse;
+    grid-area: footer;
+}
+
+.child.bar {
+    background-color: rgb(0, 119, 80);
+    grid-area: sidebar2;
+}
+
+.child.main {
+    background-color: burlywood;
+    grid-area: main2;
+}
+
+.child.main1{
+    background-color: cornsilk;
+    grid-area: main1;
+}

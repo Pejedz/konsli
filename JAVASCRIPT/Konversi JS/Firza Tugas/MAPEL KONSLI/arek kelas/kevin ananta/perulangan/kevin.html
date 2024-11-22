@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    let DataLagu = [];
+
+    
+    let jumlahSiswa = parseInt(
+    prompt("Masukkan jumlah data siswa yang ingin diinputkan : "));
+
+
+    for (let i = 0; i < jumlahSiswa; i++) {
+
+
+    let namaSiswa = prompt("Masukkan Nama Siswa ke-" + (i + 1) + ":");
+
+
+    let LaguFav = prompt("Masukkan Lagu Favorit " + namaSiswa + ":")
+
+
+    DataLagu.push({Nama: namaSiswa, LaguFavorit: LaguFav});
+    }
+
+
+    console.table(DataLagu);
+
+    </script>
+</body>
+</html>

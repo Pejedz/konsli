@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    //insialisasi array untuk menyimpan data stock
+    let stockData = [];
+
+    //Mengisi jumlah stock yang diinginkan
+     let jumlahStock = parseInt(
+     prompt("Masukkan jumlah data yang ingin diinputkan : "));
+    
+    //loop untuk Memasukkan data stock
+     for (let i = 0; i < jumlahStock; i++) {
+
+        //memasukkan nama stock
+        let namaStock = prompt("Masukkan Nama Sayur ke-" + (i + 1) + ":");
+
+        //memasukkan harga stock
+        let hargaItem = prompt("Masukkan harga untuk " + namaStock + ":")
+
+        //menyimpan data dalam bentuk objek
+        stockData.push({nama: namaStock, harga: hargaItem});
+     }
+
+        //menampilkan data di console
+        console.table(stockData);
+           
+    </script>
+</body>
+</html>

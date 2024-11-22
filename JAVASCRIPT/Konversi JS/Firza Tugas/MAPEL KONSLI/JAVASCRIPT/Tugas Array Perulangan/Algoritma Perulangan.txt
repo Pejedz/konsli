@@ -1,0 +1,24 @@
+Algoritma Perulangan
+
+1. Inisialisasi Array:
+
+	Buat array stockData untuk menyimpan data stok.
+
+2. Meminta Jumlah Stok:
+
+	a.) Tampilkan prompt kepada pengguna untuk memasukkan jumlah data stok yang ingin diinputkan.
+	b.) Simpan hasil input pengguna ke dalam variabel jumlahStock setelah dikonversi menjadi integer.
+
+3. Loop untuk Memasukkan Data Stok:
+
+	a.) Buat loop yang berjalan sebanyak jumlahStock.
+	b.) Di dalam loop:
+		1.) Minta pengguna memasukkan nama stok (misalnya, nama sayur) melalui prompt.
+		2.) Simpan input pengguna ke dalam variabel namaStock.
+		3.) Minta pengguna memasukkan harga stok untuk nama stok yang telah diinputkan.
+		4.) Simpan input pengguna ke dalam variabel hargaItem.
+		5.) Simpan objek yang terdiri dari namaStock dan hargaItem ke dalam array stockData.
+
+4. Menampilkan Data:
+
+	a.) Setelah loop selesai, tampilkan semua data stok yang telah diinputkan dalam bentuk tabel di konsol menggunakan console.table(stockData).

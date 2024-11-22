@@ -1,0 +1,26 @@
+Algoritma Perulangan Lagu Favorit
+
+nama : Kevin Ananta P. /03
+
+1. Inisialisasi Array:
+
+	Buat array 'DataLagu' untuk menyimpan data uang saku siswa.
+
+2. Meminta Jumlah Data Siswa:
+
+	a.) Tampilkan prompt kepada pengguna untuk memasukkan jumlah data siswa yang ingin diinputkan.
+	b.) Simpan hasil input pengguna ke dalam variabel jumlahSiswa setelah dikonversi menjadi integer.
+
+3. Loop untuk Memasukkan Data Siswa:
+
+	a.) Buat loop yang berjalan sebanyak jumlahSiswa.
+	b.) Di dalam loop:
+		1.) Minta pengguna memasukkan nama siswa melalui prompt.
+		2.) Simpan input pengguna ke dalam variabel namaSiswa.
+		3.) Minta pengguna memasukkan lagu favorit siswa tersebut melalui prompt.
+		4.) Simpan input pengguna ke dalam variabel LaguFav.
+		5.) Simpan objek yang terdiri dari namaSiswa dan LaguFav ke dalam array DataLagu.
+
+4.) Menampilkan Data:
+
+	a.) Setelah loop selesai, tampilkan semua data siswa dan lagu favorit yang telah diinputkan dalam bentuk tabel di konsol menggunakan console.table(DataLagu).

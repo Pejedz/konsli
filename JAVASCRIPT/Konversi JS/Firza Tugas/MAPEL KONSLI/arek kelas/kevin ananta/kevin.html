@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+            const makanan = [
+        { name: "Tempe", protein: "20gram", harga: "Rp. 3.500" },
+        { name: "Dada Ayam", protein: "54gram", harga: "Rp. 7.500" },
+        { name: "Telur", protein: "6gram", harga: "Rp. 3.500" },
+        { name: "Susu Murni", protein: "7,7gram", harga: "Rp. 10.000" },
+    ];
+
+    
+    const newMakanans = { name: "Udang Rebon", protein: "66,6gram", harga: "Rp. 15.600" };
+    makanan.push(newMakanans);
+
+    const menghapus = makanan.findIndex(makanans => makanans.name === "Tempe");
+        if (menghapus !== -1) {
+            makanan.splice(menghapus, 1);
+    }
+
+    makanan.forEach(makanans => {
+    console.log(`${makanans.name} mempunyai kandungan protein sebanyak ${makanans.protein} dan harganya adalah ${makanans.harga}.`);
+    });
+
+    </script>
+</body>
+</html>

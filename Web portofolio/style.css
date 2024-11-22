@@ -1,0 +1,151 @@
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+header {
+    background-color: #4A306D;
+    color: #fff;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+  }
+
+  nav ul li {
+    display: inline-block;
+    padding: 0 12px;
+    list-style: none;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  section {
+    margin: 40px 80px;
+  }
+  
+  #introduction {
+    display: flex;
+    gap: 24px;
+    border-bottom: 1px solid #4A306D;
+    padding-bottom: 24px;
+  }
+  
+  #introduction img {
+    display: flex;
+    width: 300px;
+    height: 300px;
+  }
+  
+  #introduction h2 {
+    font-size: 48px;
+  }
+
+  .project-container {
+    display: flex;
+    gap: 20px;
+  }
+
+  #gambar{
+  height: 280px;
+  display: flex;
+  }
+
+  .project {
+    border: solid 1px #4A306D;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.project:hover {
+    box-shadow: 10px 15px #4A306D;
+    transition-duration: 400ms;
+}
+
+  .form-inp {
+    text-align: center;
+    border: solid #4A306D;
+    border-radius: 15px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "tittle tittle tittle tittle"
+                         "email email no no"
+                         "message message message message"
+                         "option option option option"
+                         "btn btn btn btn";
+}
+
+
+
+#text-form {
+    grid-area: tittle;
+}
+
+#email-inp {
+    grid-area: email;
+    padding: 10px;
+    margin: 5px;
+    background-color: #cbc1d2;
+    color:#4A306D;
+}
+
+#no-inp {
+    grid-area: no;
+    padding: 10px;
+    margin: 5px;
+    background-color: #cbc1d2;
+    color: #4A306D;
+}
+
+#message-inp {
+    grid-area: message;
+    height: 100px;
+    margin: 5px;
+    background-color: #cbc1d2;
+    color: #4A306D;
+}
+
+#btn-inp {
+    grid-area: btn;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #4A306D;
+    color: white;
+    cursor: pointer;
+}
+
+#btn-inp:active {
+    background-color: blue;
+    border: none;
+}
+
+footer {
+  text-align: center;
+  background-color: #4A306D;
+  color: white;
+  padding: 5px;   
+}
+
+body {
+  background-color: #cbc1d2;
+}

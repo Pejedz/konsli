@@ -1,0 +1,62 @@
+table {
+    border: 1px solid #000000;
+    width: 60%;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.PJORK {
+    background-color: aquamarine;
+}
+
+.BINDO {
+    background-color: bisque;
+}
+
+.KONSLI {
+    background-color: coral;
+}
+
+.JAWA {
+    background-color: darkcyan;
+}
+
+.BING {
+    background-color: deepskyblue;
+}
+
+.PAI {
+    background-color: chartreuse;
+}
+
+.SEJARAH {
+    background-color: deeppink;
+}
+
+.MAPIL {
+    background-color: yellow;
+}
+
+.PP {
+    background-color: orangered;
+}
+
+.PKK {
+    background-color: gainsboro;
+}
+
+.MAT {
+    background-color: plum;
+}
+
+.BK {
+    background-color: lightgreen;
+}

@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #000000;
+    background-image: url('background\ vintage.jpg');
+    background-size: cover;
+    height: 100%;
+    font-size: 20px;
+}
+
+.wrapper {
+    width: 480px;
+    justify-content: center;
+}
+
+.photo {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+}
+
+.table tr td {
+    padding: .25rem;
+}
+
+.table tr td:first-child {
+    font-weight: 700;
+}
+
+link {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: brown;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}

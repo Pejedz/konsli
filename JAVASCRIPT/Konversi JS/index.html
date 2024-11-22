@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi liter dan meter</title>
+</head>
+<body>
+    <script>
+            let nilai = prompt(`
+            Pilih Converter :
+            1. Liter to MiliLiter
+            2. Meter to CentiMeter
+            3. Celcius ke Kelvin
+            4. Celcius ke Farenheit
+            5. Dollar ke Rupiah
+            pilih angka (1/2/3/4/5)
+        `);
+
+        if(nilai == '1'){
+            let nominal = parseInt(prompt(`Masukkan nominal Liter yang akan dikonversi : `))
+            function LiterToML(nominal){
+            nominal = nominal * 1000;
+            alert(`Sama dengan ${nominal} ML`)
+            }
+            LiterToML(nominal);
+        }
+
+        
+        if(nilai == '2'){
+            let nominal = parseInt(prompt(`Masukkan nominal Meter yang akan dikonversi : `))
+            function MeterToCM(nominal){
+            nominal = nominal * 100;
+            alert(`Sama dengan ${nominal} CM`)
+            }
+            MeterToCM(nominal);
+        }
+
+        if(nilai == '3'){
+            let nominal = parseInt(prompt(`Masukkan nominal Celcius yang akan dikonversi : `))
+            function CelciusToK(nominal){
+            nominal = nominal * 274.15;
+            alert(`Sama dengan ${nominal} Kelvin`)
+            }
+            CelciusToK(nominal);
+        }
+
+        if(nilai == '4'){
+            let nominal = parseInt(prompt(`Masukkan nominal Celcius yang akan dikonversi : `))
+            function CelciusToF(nominal){
+            nominal = nominal * 274.15;
+            alert(`Sama dengan ${nominal} Farenheit`)
+            }
+            CelciusToF(nominal);
+        }
+        
+        if(nilai == '5'){
+            let nominal = parseInt(prompt(`Masukkan nominal yang akan dikonversi : `))
+            function DollarToRupiah(nominal){
+            nominal = nominal * 15000;
+            alert(`Sama dengan Rp. ${nominal}`)
+            }
+            DollarToRupiah(nominal);
+        }
+    </script>
+</body>
+</html>
